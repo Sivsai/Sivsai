@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Images</title>
+<style>
+    .myDiv{
+        text-align: right;
+        margin-bottom: 300px;
+    }
+    .myDiv2{
+        
+        text-align: center;
+      
+    }
+    label{
+        font-size: 100px;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-weight:400;
+        align-items: center;
+        
+  }
+     
+     button{
+        cursor: pointer;
+            background-color: #303134;
+            border:1px solid #303134;
+            color: white;
+            width: 150px;
+            border-radius: 4px;
+            font-size: 14px;
+            height: 36px;
+            min-width: 54px;
+            margin-top: 10px;
+     }
+     sub{
+        font-size: 20px;
+        color:rgb(85, 85, 245);
+        cursor: text;
+    
+     }
+     a{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+</style>
+</head>
+<body
+style="background-color: #202124;"><div class="myDiv">
+    <a href="C:\Users\sivas\Desktop\project\index.html">Google Search</a>
+</div>
+   
+    <div class="myDiv2">
+        <form action="https://images.google.com/search" method="GET" target="_blank">
+        <label for="image">Google <sub>images</sub></label><br><br>
+        <input type="text" id="image" name="as_q"style="border-radius: 30px;width: 450px; height: 35px; background-color:#444746;border-color:transparent;"><br>
+        <input type="hidden" name="tbm" value="isch"> <!-- 'tbm=isch' tells Google to search for images -->
+
+        <button type="submit">Google Search</button>
+        </form>
+        
+
+    </div>
+    
+</body>
+</html>

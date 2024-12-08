@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        .myDiv{
+          
+            text-align: right;
+         margin-bottom: 300px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+
+        }
+        
+        .myDiv2{
+            text-align: center;
+         }
+        Label{
+            font-size: 100px;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-weight:400;
+            margin-right: 10px;
+        }
+        button{
+            cursor: pointer;
+            background-color: #303134;
+            border:1px solid #303134;
+            color: white;
+            width: 150px;
+            border-radius: 4px;
+            font-size: 14px;
+            height: 36px;
+            min-width: 54px;
+
+        }
+        input{
+            cursor: text;
+            background-color: #303134;
+            border:1px solid #303134;
+            color: white;
+            width: 150px;
+            border-radius: 4px;
+            font-size: 14px;
+            height: 36px;
+            min-width: 54px;
+
+        }
+        
+    </style>
+
+</head>
+<body style="background-color: #202124;">
+    <div class="myDiv">
+  <a href="C:\Users\sivas\Desktop\project\image.html" >Images</a>
+  
+  <a href="C:\Users\sivas\Desktop\project\Advanced.html" >Advanced Search</a>
+    </div>
+
+    <div class="myDiv2" >
+        <form action="https://www.google.com/search">
+        <label for="search" id="Label">Google</label>
+            <br><br>
+            <input 
+            type="text" 
+            name="q" 
+            id="search" 
+            size="50" 
+            
+            style="border-radius: 30px;width: 450px; height: 35px; background-color:#444746;border-color:transparent;"
+            >
+            <br><br>
+            <input type="submit" value="Google search" style="cursor: pointer;">
+            <button type="button" onclick="window.location.href='https://www.google.com/search?q=[your search term]&btnI'">I'm Feeling Lucky</button>
+    </form>
+    </div>
+       
+
+</body>
+</html>
